@@ -31,7 +31,7 @@ import "@refinedev/antd/dist/reset.css";
 const App = () => {
   return (
     <BrowserRouter>
-      <ConfigProvider theme={RefineThemes.Blue}>
+      
         <AntdApp>
           <DevtoolsProvider>
             <Refine
@@ -103,7 +103,7 @@ const App = () => {
             <DevtoolsPanel />
           </DevtoolsProvider>
         </AntdApp>
-      </ConfigProvider>
+    
     </BrowserRouter>
   );
 };
